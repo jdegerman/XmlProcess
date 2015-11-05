@@ -1,0 +1,12 @@
+﻿Foos {
+    Foo(Bar Bar1) {
+        "Hello world {guid}"
+    }
+    Foo(Bar Bar2) {
+        "Hello moon {datetime yyyy-MM-dd HH:mm:ss.ffff}"
+    }
+    Foo(Bar Bar2);
+    Foo;
+    Foo { "{MyVar}" }
+    Foo(Bar3 "Hello jupiter");
+}
