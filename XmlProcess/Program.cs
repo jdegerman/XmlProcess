@@ -18,7 +18,8 @@ namespace XmlProcess
         }
         static int Main(string[] args)
         {
-            args = new[] { "--vars", "Samples\\variables.xvar", "--input", "Samples\\input.xtm", "--target", "dev", "--output", "Samples\\output.xml"};
+            // Uncomment to use with included sample files
+            // args = new[] { "--vars", "Samples\\variables.xvar", "--input", "Samples\\input.xtm", "--target", "dev", "--output", "Samples\\output.xml"};
             try
             {
                 var commmand_line_args = ReadCommandLineArguments(args);
